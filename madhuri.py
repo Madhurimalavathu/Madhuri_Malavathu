@@ -15,20 +15,23 @@ st.markdown("""
     }
     .chat-font {
         font-family: 'Times New Roman', serif;
-        color: #2c5f2d;
+        color: #000000;  /* Changed to black */
     }
     .user-msg {
         background: #ffffff !important;
         border-radius: 15px !important;
         border: 2px solid #2c5f2d !important;
+        color: #000000 !important;  /* Added for black text */
     }
     .bot-msg {
         background: #fff9e6 !important;
         border-radius: 15px !important;
         border: 2px solid #ffd700 !important;
+        color: #000000 !important;  /* Added for black text */
     }
     .stChatInput {
         background: #ffffff;
+        color: #000000 !important;  /* Added for black input text */
     }
 </style>
 """, unsafe_allow_html=True)
